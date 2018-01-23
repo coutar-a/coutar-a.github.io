@@ -2,4 +2,5 @@
     { "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
     { "keys": ["ctrl+k", "ctrl+m"], "command": "toggle_minimap" },
     { "keys": ["ctrl+:"], "command": "toggle_comment", "args": { "block": false } }
+    { "keys": ["ctrl+è"], "command": "show_panel", "args": {"panel": "console", "toggle": true} }
 ]
