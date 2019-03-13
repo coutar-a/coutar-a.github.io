@@ -1,0 +1,29 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "workbench.colorTheme": "Brogrammer",
+  "editor.fontSize": 10,
+  "editor.matchBrackets": false,
+  "editor.formatOnPaste": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "macros": {
+    "closeGroupRight": [
+      "workbench.action.focusRightGroup",
+      "workbench.action.closeGroup"
+    ],
+    "closeGroupLeft": [
+      "workbench.action.focusLeftGroup",
+      "workbench.action.closeGroup"
+    ],
+    "closeGroupUp": [
+      "workbench.action.focusAboveGroup",
+      "workbench.action.closeGroup"
+    ],
+    "closeGroupDown": [
+      "workbench.action.focusBelowGroup",
+      "workbench.action.closeGroup"
+    ]
+  }
+}

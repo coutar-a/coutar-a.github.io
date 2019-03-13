@@ -1,0 +1,32 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+k ctrl+right",
+    "command": "workbench.action.splitEditorRight"
+  },
+  { "key": "ctrl+k ctrl+left", "command": "workbench.action.splitEditorLeft" },
+  {
+    "key": "ctrl+k ctrl+up",
+    "command": "workbench.action.splitEditorUp"
+  },
+  {
+    "key": "ctrl+k ctrl+down",
+    "command": "workbench.action.splitEditorDown"
+  },
+  {
+    "key": "ctrl+k ctrl+shift+down",
+    "command": "macros.closeGroupDown"
+  },
+  {
+    "key": "ctrl+k ctrl+shift+up",
+    "command": "macros.closeGroupUp"
+  },
+  {
+    "key": "ctrl+k ctrl+shift+right",
+    "command": "macros.closeGroupRight"
+  },
+  {
+    "key": "ctrl+k ctrl+shift+left",
+    "command": "macros.closeGroupLeft"
+  }
+]
