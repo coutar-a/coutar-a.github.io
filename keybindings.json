@@ -1,10 +1,14 @@
 // Place your key bindings in this file to override the defaults
+// macros are defined in extension "macros" by geddski
 [
   {
     "key": "ctrl+k ctrl+right",
     "command": "workbench.action.splitEditorRight"
   },
-  { "key": "ctrl+k ctrl+left", "command": "workbench.action.splitEditorLeft" },
+  {
+    "key": "ctrl+k ctrl+left",
+    "command": "workbench.action.splitEditorLeft"
+  },
   {
     "key": "ctrl+k ctrl+up",
     "command": "workbench.action.splitEditorUp"
@@ -28,5 +32,17 @@
   {
     "key": "ctrl+k ctrl+shift+left",
     "command": "macros.closeGroupLeft"
+  },
+  {
+    "key": "ctrl+super+left",
+    "command": "workbench.action.moveEditorToPreviousGroup"
+  },
+  {
+    "key": "ctrl+f6",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+k g",
+    "command": "editor.action.goToTypeDefinition"
   }
 ]
